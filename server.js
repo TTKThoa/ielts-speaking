@@ -22,12 +22,11 @@ Candidate answer: "${answer}"
 
 Return ONLY valid JSON with NO markdown fences:
 {
-  "overall": <number 1.0–9.0 in 0.5 steps>,
+  "overall": <number 1.0–9.0 in 0.5 steps, based only on the 3 criteria below>,
   "criteria": {
     "Fluency & Coherence": <number>,
     "Lexical Resource": <number>,
-    "Grammatical Range & Accuracy": <number>,
-    "Pronunciation": <number>
+    "Grammatical Range & Accuracy": <number>
   },
   "comment": "<1 Vietnamese sentence summarizing performance>",
   "strengths": ["<strength 1 in Vietnamese>", "<strength 2>"],
